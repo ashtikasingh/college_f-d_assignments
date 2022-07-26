@@ -179,7 +179,7 @@
     top: 615.5px; 
     position: relative;
     background: #10565221;
-    height: 800px;
+    height: 690px;
     width: 1265px;
 }
 
@@ -203,7 +203,120 @@
 #portfolio .row-img {
    margin: 65px;
   }
-  
+
+/* #resume {
+    position: relative;
+    top: 615.5px;
+    padding-top: 5px;
+    background: #10565221;
+}
+
+#resume .left{
+    margin-left: 65px;
+}
+
+div .border{
+    margin: 20px 0px 20px 30px;
+    border-left: #09BCAB solid 2px;
+    padding: 20px;
+
+} */
+
+/* #sayAboutMe {
+    position: relative;
+    top: 615.5px;
+    padding-top: 5px;
+    background: #10565221;
+} */
+
+#contact {
+    position: relative;
+    top: 615.5px;
+    height: 950px;
+    background: #10565221;
+    display: grid;
+}
+
+#contact .heading{
+    text-align: center;
+    height: 80px;
+    width: 280px;
+    font-size: 42px;
+    margin-left: 500px;
+    border-bottom: solid 7px #FCA738
+
+}
+
+#contact .contactMe{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 650px;
+    width: 1043px;
+    background-color: #FFFFFF;
+    position: relative;
+    left: 103px;
+    top: -50px;
+    border-radius: 10px;
+}
+
+.contactMe .letConnect{
+    padding: 113px 83px;
+}
+
+.letConnect .green, .sentMeMessage .green{
+    font-size: 26px;
+}
+
+.letConnect .black{
+    color: #333333;
+    padding: 20px 0px 26px 0px; 
+}
+
+.letConnect .fadedBlack{
+    color: #858585;
+    padding-bottom: 29px;
+}
+
+.fadedBlack img{
+    padding-right: 20px;
+}
+
+.contactMe .sentMeMessage{
+    background-color: #FBF3E4;
+    padding: 78px 0px 0px 83px;
+}
+
+.sentMeMessage form {
+    padding-top: 27px;
+}
+
+input[type=text], input[type=number],input[type=email],textarea {
+    width: 350px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: #FCA738;
+    color: white;
+    padding: 13px 35px;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+/* {
+    padding-bottom: 20px;
+} */
+
+
+
 
 
 
